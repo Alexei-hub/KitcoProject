@@ -89,7 +89,6 @@
         </dependency>
     </dependencies>
 
-
         <reporting>
             <excludeDefaults>true</excludeDefaults>
             <plugins>
