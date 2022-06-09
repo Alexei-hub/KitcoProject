@@ -1,7 +1,10 @@
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 
 public class LoginAsCompanyAccountTest extends Common {
@@ -27,5 +30,10 @@ public class LoginAsCompanyAccountTest extends Common {
                 .clickLoginBtnTestUser()
                 .clickOnNoMoreSuits()
                 .checkCustomerName(CUSTOMER_NAME);
+    }
+
+    @AfterTest
+    public void after(){
+        closeWebDriver();
     }
 }
