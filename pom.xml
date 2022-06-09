@@ -33,7 +33,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${basedir}/src/test/java/testSuites/testSuite.xml</suiteXmlFile>
+                        <suiteXmlFile>${basedir}${TEST_SUITE}.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemProperties>
                         <property>

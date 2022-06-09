@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="testSuite">
+<suite name="BuyFunctional">
 
-    <test name="testSuite">
+    <test name="BuyFunctional">
         <classes>
-            <class name="LogoutTest"/>
+            <class name="BuyFunctionalityTest"/>
         </classes>
     </test>
 </suite>
