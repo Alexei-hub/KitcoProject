@@ -12,7 +12,7 @@ public class CreateAccountLogic extends CreateAccountElements {
     public CreateAccountLogic enterMailAndPassword(String mail) {
         System.out.println(mail);
         mailInput.sendKeys(mail);
-        passwordInput.sendKeys("100100");
+        passwordInput.sendKeys("autotest2020");
         continueBtn.click();
         return this;
     }
