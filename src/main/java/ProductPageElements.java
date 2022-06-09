@@ -7,5 +7,5 @@ public class ProductPageElements {
 
     SelenideElement qtyBlock = $(By.xpath("//*[@id='product_addtocart_form']//*[@class='product-price-table']"));
     SelenideElement addToCartBtn = $(By.xpath("//*[@id='product_addtocart_form']//*[contains(text(), 'Add to cart')]"));
-    SelenideElement elementForFail = $(By.xpath(""));
+    SelenideElement elementForFail = $(By.xpath("//a[contains(@class, 'md:leading-snug')]"));
 }
