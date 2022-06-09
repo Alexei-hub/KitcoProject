@@ -1,6 +1,5 @@
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.Step;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 import static com.codeborne.selenide.Selenide.open;
 

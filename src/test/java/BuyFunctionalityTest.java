@@ -1,6 +1,5 @@
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
-import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -28,7 +27,7 @@ public class BuyFunctionalityTest extends Common {
         openUrl(PRODUCT_URL);
         new ProductPageLogic()
                 .scrollToQtyBlock()
-                .clickAddToCart();
-        Assert.fail("Fail example! Here can be screenshot with fail reason");
+                .clickAddToCart()
+                .clickOnCart();
     }
 }
